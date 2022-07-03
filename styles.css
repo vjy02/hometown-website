@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin: 0px 70px;
+    border: 3px solid #28464B;
+}
+
+.img-activities{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.hero{
+    color: whitesmoke;
+    background:url(https://images.unsplash.com/photo-1595434971780-79d5c20c5090?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+#welcome-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+#visit-city{
+    background: #1D3557;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px 15px;
+}
+
+#visit-city-msg{
+    background: #457B9D;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px 15px;
+}
+
+#activities{
+    color: #061826;
+    padding-top: 10px;
+    background: #F1FAEE;
+    margin-top: 0px;
+    padding-bottom: 150px;
+}
+
+#activities-heading{
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+#activity-text{
+    width:200px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#guide{
+    padding-top: 40px;
+    padding-bottom: 200px;
+    color:#061826;
+    background: #A8DADC;
+}
+
+#text-guide{
+    margin-top:40px;
+}
+
+#picture-guide{
+    margin-top:40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#header-guide{
+    text-align:center;
+    text-decoration: underline;
+}
